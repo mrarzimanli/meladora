@@ -1,0 +1,288 @@
+    <!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meladora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <img src="img/main/prelader.svg" alt="">
+    </div>
+    <!-- Scroll to top button -->
+    <button id="btn-scroll-top"><i class="fas fa-angle-up"></i>
+    </button>
+    <header id="main-header" class="page-header">
+        <div class="container">
+            <div class="primary-header">
+                <div class="primary-header-left">
+                    <ul class="contact-list">
+                        <li>
+                            <a href="tel:+9940507773412"><i class="fas fa-phone-alt"></i>(050) 777 34 12</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="primary-header-right">
+                    <ul class="social-list">
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                    <button class="btn-search d-lg-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19.996" viewBox="0 0 20 19.996">
+                            <path id="Path_13" data-name="Path 13" d="M-614.571,20.739a3.4,3.4,0,0,1-.455-.321q-2.463-2.41-4.915-4.83c-.041-.04-.084-.079-.135-.126-.056.039-.111.072-.161.111a8.222,8.222,0,0,1-3.644,1.6,8.29,8.29,0,0,1-5.686-.978,8.22,8.22,0,0,1-3.808-4.618,7.474,7.474,0,0,1-.374-1.849,1.015,1.015,0,0,0-.034-.149V8.481c.05-.333.091-.668.153-1a7.846,7.846,0,0,1,1.43-3.275,8.185,8.185,0,0,1,4.737-3.19,8.25,8.25,0,0,1,7.447,1.639,7.905,7.905,0,0,1,3.012,5.536,7.934,7.934,0,0,1-1.385,5.417c-.226.331-.483.642-.76,1.007a1.072,1.072,0,0,1,.168.114q2.464,2.42,4.925,4.844c.287.283.36.587.164.85a1.879,1.879,0,0,1-.4.314Zm-10.8-18.714a6.849,6.849,0,0,0-2.154.329,6.969,6.969,0,0,0-4,3.172,6.7,6.7,0,0,0-.768,5.092,6.773,6.773,0,0,0,2.98,4.23A7.016,7.016,0,0,0-624.3,15.94a6.873,6.873,0,0,0,3.977-1.985,6.779,6.779,0,0,0,2.051-5.288A6.552,6.552,0,0,0-619.488,5.1,7.074,7.074,0,0,0-625.368,2.026Z" transform="translate(633.783 -0.743)" fill="#2e2020" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="secondary-header">
+                <a href="index.html" class="logo header">
+                    <img class="logo-primary" src="img/main/logo-tertiary.svg" alt="">
+                    <img class="logo-secondary" src="img/main/logo-secondary.svg" alt="">
+                </a>
+                <nav class="main-menu d-none d-lg-flex">
+                    <ul class="main-menu-list">
+                        <li><a href="about.html">Biz kimik?</a></li>
+                        <li><a href="gardens.html">Bağlarımız</a></li>
+                        <li><a href="products.html">Məhsullarımız</a></li>
+                        <li><a href="services.html">Xidmətlərimiz</a></li>
+                        <li><a href="social-responsibility.html">Sosial məsuliyyət</a></li>
+                        <li><a href="contact.html">Əlaqə</a></li>
+                    </ul>
+                    <button class="btn-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19.996" viewBox="0 0 20 19.996">
+                            <path id="Path_13" data-name="Path 13" d="M-614.571,20.739a3.4,3.4,0,0,1-.455-.321q-2.463-2.41-4.915-4.83c-.041-.04-.084-.079-.135-.126-.056.039-.111.072-.161.111a8.222,8.222,0,0,1-3.644,1.6,8.29,8.29,0,0,1-5.686-.978,8.22,8.22,0,0,1-3.808-4.618,7.474,7.474,0,0,1-.374-1.849,1.015,1.015,0,0,0-.034-.149V8.481c.05-.333.091-.668.153-1a7.846,7.846,0,0,1,1.43-3.275,8.185,8.185,0,0,1,4.737-3.19,8.25,8.25,0,0,1,7.447,1.639,7.905,7.905,0,0,1,3.012,5.536,7.934,7.934,0,0,1-1.385,5.417c-.226.331-.483.642-.76,1.007a1.072,1.072,0,0,1,.168.114q2.464,2.42,4.925,4.844c.287.283.36.587.164.85a1.879,1.879,0,0,1-.4.314Zm-10.8-18.714a6.849,6.849,0,0,0-2.154.329,6.969,6.969,0,0,0-4,3.172,6.7,6.7,0,0,0-.768,5.092,6.773,6.773,0,0,0,2.98,4.23A7.016,7.016,0,0,0-624.3,15.94a6.873,6.873,0,0,0,3.977-1.985,6.779,6.779,0,0,0,2.051-5.288A6.552,6.552,0,0,0-619.488,5.1,7.074,7.074,0,0,0-625.368,2.026Z" transform="translate(633.783 -0.743)" fill="#2e2020" />
+                        </svg>
+                    </button>
+                </nav>
+                <div class="menu-toggle d-lg-none">
+                    <div class="menu-bars">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu d-lg-none">
+                <div class="menu-wrapper">
+                    <div class="menu-header">
+                        <div class="mobile-menu-logo">
+                            <a href="index.html">
+                                <img src="img/main/logo-tertiary.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="menu-toggle active">
+                            <div class="menu-bars">
+                                <div class="one"></div>
+                                <div class="two"></div>
+                                <div class="three"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-body">
+                        <nav class="main-menu">
+                            <ul class="main-menu-list mobile">
+                                <li><a class="active" href="about.html">Biz kimik?</a></li>
+                                <li><a href="gardens.html">Bağlarımız</a></li>
+                                <li><a href="products.html">Məhsullarımız</a></li>
+                                <li><a href="services.html">Xidmətlərimiz</a></li>
+                                <li><a href="social-responsibility.html">Sosial məsuliyyət</a></li>
+                                <li><a href="contact.html">Əlaqə</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="menu-footer">
+                        <ul class="social-list mobile">
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-menu-full">
+            <div class="container">
+                <form action="" id="main-serach">
+                    <input class="form-control" type="text" placeholder="Axtarış" aria-label="Axtarış" autofocus>
+                    <button type="submit">Axtar</button>
+                </form>
+                <button class="btn-search-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.998" viewBox="0 0 16 15.998">
+                        <path id="Path_6879" data-name="Path 6879" d="M15.872,13.994,21.6,8.279a1.337,1.337,0,0,0-1.892-1.892l-5.714,5.728L8.28,6.388A1.337,1.337,0,0,0,6.388,8.279l5.728,5.714L6.388,19.708A1.338,1.338,0,1,0,8.28,21.6l5.714-5.728L19.709,21.6A1.337,1.337,0,1,0,21.6,19.708Z" transform="translate(-5.994 -5.996)" fill="#fff" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main id="product-inner-pg">
+        <section id="page-banner">
+            <div class="overlay"></div>
+            <img src="img/main/home-banner-1.jpg" alt="">
+            <div class="banner-pattern">
+                <div class="container">
+                    <img src="img/pattern/greens.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="product-inner" class="content-box-lg">
+            <img src="img/pattern/logo.svg" alt="" class="page-heading-pattern">
+            <img src="img/pattern/vegetables-circle.svg" alt="" class="section-pattern right">
+            <div class="container">
+                <div class="page-heading">
+                    <h1>Alma</h1>
+                </div>
+                <div class="product-inner-wrapper">
+                    <div class="row gy-4">
+                        <div class="col-lg-4">
+                            <div class="product-inner-img">
+                                <img src="img/products/product-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="product-inner-text">
+                                <h3>Alma</h3>
+                                <span>5 ₼</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-wrapper">
+                        <div class="swiper gallerySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-1.jpg" class="gallery-box img" data-fancybox="gallery-image">
+                                        <img data-src="img/gallery/gallery-1.jpg" class="swiper-lazy" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://youtu.be/QelDPYHJfII" class="gallery-box video" data-fancybox="gallery-video">
+                                        <img data-src="img/gallery/gallery-2.jpg" class="swiper-lazy" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                        <div class="overlay">
+                                            <div class="play-btn"><span></span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-1.jpg" class="gallery-box img" data-fancybox="gallery-image">
+                                        <img data-src="img/gallery/gallery-1.jpg" class="swiper-lazy" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://youtu.be/QelDPYHJfII" class="gallery-box video" data-fancybox="gallery-video">
+                                        <img data-src="img/gallery/gallery-2.jpg" class="swiper-lazy" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                        <div class="overlay">
+                                            <div class="play-btn"><span></span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-1.jpg" class="gallery-box img" data-fancybox="gallery-image">
+                                        <img data-src="img/gallery/gallery-1.jpg" class="swiper-lazy" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://youtu.be/QelDPYHJfII" class="gallery-box video" data-fancybox="gallery-video">
+                                        <img data-src="img/gallery/gallery-2.jpg" class="swiper-lazy" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                        <div class="overlay">
+                                            <div class="play-btn"><span></span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="main-footer" class="page-footer">
+        <div class="footer-pattern">
+            <img src="img/pattern/footer-curve.svg" alt="">
+        </div>
+        <div class="container">
+            <div class="primary-footer">
+                <div class="row gy-4">
+                    <div class="col-lg-4">
+                        <div class="footer-block logo">
+                            <a href="index.html" class="logo footer">
+                                <img src="img/main/logo-tertiary.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-block">
+                            <h5>Menyular</h5>
+                            <ul>
+                                <li><a href="about.html">Biz kimik?</a></li>
+                                <li><a href="gardens.html">Bağlarımız</a></li>
+                                <li><a href="products.html">Məhsullarımız</a></li>
+                                <li><a href="services.html">Xidmətlərimiz</a></li>
+                                <li><a href="social-responsibility.html">Sosial məsuliyyət</a></li>
+                                <li><a href="contact.html">Əlaqə</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-block">
+                            <h5>Menyular</h5>
+                            <ul>
+                                <li><a href="about.html">Biz kimik?</a></li>
+                                <li><a href="gardens.html">Bağlarımız</a></li>
+                                <li><a href="products.html">Məhsullarımız</a></li>
+                                <li><a href="services.html">Xidmətlərimiz</a></li>
+                                <li><a href="social-responsibility.html">Sosial məsuliyyət</a></li>
+                                <li><a href="contact.html">Əlaqə</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-block">
+                            <h5>Menyular</h5>
+                            <ul>
+                                <li><a href="about.html">Biz kimik?</a></li>
+                                <li><a href="gardens.html">Bağlarımız</a></li>
+                                <li><a href="products.html">Məhsullarımız</a></li>
+                                <li><a href="services.html">Xidmətlərimiz</a></li>
+                                <li><a href="social-responsibility.html">Sosial məsuliyyət</a></li>
+                                <li><a href="contact.html">Əlaqə</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondary-footer">
+                <div class="footer-element"> Copyright 2022 - <a href="index.html">meladora.com</a></div>
+                <div class="footer-element"> Powered by <a href="#">Proton.az</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,958 @@
+@media (max-width: 1399px) {
+
+    /* ================================
+        Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 45px;
+        --section-heading: 34px;
+        --block-heading-xl: 30px;
+        --block-heading-lg: 28px;
+        --block-heading-md: 23px;
+        --block-heading-sm: 20px;
+    }
+
+    /* ================================
+        Basics
+    ================================ */
+    /* Content padding */
+    .content-box-lg {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .content-box-md {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .content-box-sm {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    /* Swiper general  */
+    .swiper-lazy-preloader {
+        background-size: 140px;
+    }
+
+    /* Preloader */
+    .preloader img {
+        width: 180px;
+    }
+
+    .section-heading {
+        margin-bottom: 25px;
+    }
+
+    .section-heading-pattern {
+        width: 340px;
+    }
+
+    .section-heading-pattern.left {
+        left: -45px;
+    }
+
+    .section-heading-pattern.right {
+        right: -45px;
+    }
+
+    .page-heading {
+        margin-bottom: 90px;
+        padding: 0 90px;
+    }
+
+    .page-heading-pattern {
+        width: 290px;
+        top: 55px;
+        left: -45px;
+    }
+
+    .section-pattern {
+        width: 340px;
+    }
+
+    .section-pattern.right {
+        top: 110px;
+        right: 45px;
+    }
+
+    .section-pattern.left {
+        left: 45px;
+    }
+
+    .section-footer {
+        margin-top: 35px;
+    }
+
+    /* ================================
+        Header
+    ================================ */
+    .primary-header {
+        padding: 10px 0;
+    }
+
+    .secondary-header {
+        padding: 16px 0;
+    }
+
+    .main-menu-list li:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    .logo.header img {
+        width: 110px;
+    }
+
+    #main-header {
+        border-width: 3px;
+    }
+
+    /* ================================
+        Home banner
+    ================================ */
+    #home-banner {
+        height: 550px;
+    }
+
+    #page-banner {
+        height: 500px;
+    }
+
+    #page-banner .banner-pattern img {
+        width: 200px;
+    }
+
+    .category-box {
+        padding: 20px;
+        height: 265px;
+    }
+
+    .category-box .box-content {
+        top: 20px;
+        left: 20px;
+        right: 20px;
+    }
+
+    .category-box .box-content h2 {
+        margin-bottom: 5px;
+    }
+
+    /* ================================
+        About
+    ================================ */
+    .about-text .text-content {
+        padding: 40px;
+    }
+
+    .service-box .box-img img {
+        height: 75px;
+    }
+
+    .service-box .box-img {
+        margin-bottom: 15px;
+    }
+
+    .service-box .box-text h3 {
+        margin-bottom: 10px;
+    }
+
+    /* ================================
+        Gardens
+    ================================ */
+    .garden-box {
+        padding: 0 10px;
+    }
+
+    /* ================================
+        Footer
+    ================================ */
+    .logo.footer img {
+        width: 250px;
+    }
+
+    /* ================================
+        About page
+    ================================ */
+    .gallerySwiper .swiper-slide .gallery-box:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    /* ================================
+        Gardens page
+    ================================ */
+    .garden-inner-text, .gardens-wrapper .row:nth-child(2n) .garden-inner-text {
+        padding: 0;
+    }
+
+    /* ================================
+        Contact page
+    ================================ */
+    .contact-box {
+        height: 280px;
+    }
+
+    .contact-box .box-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-box .box-img img {
+        max-height: 50px;
+        max-width: 50px;
+    }
+
+    .contact-box .box-text {
+        padding: 0 25px 25px;
+    }
+
+    /* ================================
+        Services page
+    ================================ */
+
+    .services-inner-text, .services-wrapper .row:nth-child(2n) .services-inner-text {
+        padding: 0;
+    }
+
+    .services-inner-text img {
+        height: 75px;
+        margin-bottom: 20px;
+    }
+
+    .services-inner-text h2 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    /* ================================
+        Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 42px;
+        --section-heading: 32px;
+        --block-heading-xl: 29px;
+        --block-heading-lg: 27px;
+        --block-heading-md: 22px;
+        /* General font sizes */
+        --font-size-sm: 15px;
+        --font-size-md: 16px;
+        --font-size-lg: 17px;
+        --font-size-xl: 19px;
+    }
+
+    /* ================================
+        Basics
+    ================================ */
+    /* Content padding */
+    .content-box-lg {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .content-box-md {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .content-box-sm {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* Swiper general  */
+    .swiper-lazy-preloader {
+        background-size: 130px;
+    }
+
+    /* Preloader */
+    .preloader img {
+        width: 160px;
+    }
+
+    .section-heading-pattern {
+        width: 320px;
+    }
+
+    .section-heading-pattern.left {
+        left: -40px;
+    }
+
+    .section-heading-pattern.right {
+        right: -40px;
+    }
+
+    .page-heading {
+        margin-bottom: 80px;
+        padding: 0 80px;
+    }
+
+    .page-heading-pattern {
+        width: 270px;
+        top: 50px;
+        left: -40px;
+    }
+
+    .section-pattern {
+        width: 320px;
+    }
+
+    .section-pattern.right {
+        top: 100px;
+        right: 40px;
+    }
+
+    .section-pattern.left {
+        left: 40px;
+    }
+
+    .section-footer {
+        margin-top: 30px;
+    }
+
+    #btn-scroll-top {
+        width: 43px;
+        height: 43px;
+    }
+
+    /* ================================
+        Header
+    ================================ */
+    .primary-header {
+        padding: 8px 0;
+    }
+
+    .secondary-header {
+        padding: 14px 0;
+    }
+
+    .main-menu-list li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .logo.header img {
+        width: 105px;
+    }
+
+    #main-header {
+        border-width: 2px;
+    }
+
+    /* ================================
+        Home banner
+    ================================ */
+    #home-banner {
+        height: 500px;
+    }
+
+    #page-banner {
+        height: 450px;
+    }
+
+    #page-banner .banner-pattern img {
+        width: 180px;
+    }
+
+    .category-box {
+        height: 250px;
+        padding: 15px;
+    }
+
+    .category-box .box-content {
+        top: 15px;
+        left: 15px;
+        right: 15px;
+    }
+
+    /* ================================
+        About
+    ================================ */
+    .about-image {
+        height: 500px;
+    }
+
+    .about-text.content-box-lg {
+        padding-top: 0;
+    }
+
+    .about-text .text-content {
+        padding: 50px;
+    }
+
+    /* ================================
+        Products
+    ================================ */
+
+    .products-tabs {
+        margin-bottom: 45px;
+    }
+
+    /* ================================
+        Footer
+    ================================ */
+    .logo.footer img {
+        width: 230px;
+    }
+
+    /* ================================
+        About page
+    ================================ */
+
+    .service-box .box-img img {
+        height: 70px;
+    }
+
+    .service-box .box-img {
+        margin-bottom: 10px;
+    }
+
+    .service-box .box-text h3 {
+        margin-bottom: 5px;
+    }
+
+    /* ================================
+        Gardens page
+    ================================ */
+    .garden-inner-text, .gardens-wrapper .row:nth-child(2n) .garden-inner-text {
+        padding: 0;
+    }
+
+    /* ================================
+        Contact page
+    ================================ */
+    .contact-box {
+        height: 260px;
+    }
+
+    .contact-box .box-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contact-box .box-img img {
+        max-height: 45px;
+        max-width: 45px;
+    }
+
+    .contact-box .box-text {
+        padding: 0 20px 20px;
+    }
+
+    /* ================================
+        Services page
+    ================================ */
+
+    .services-inner-text img {
+        height: 70px;
+        margin-bottom: 15px;
+    }
+
+    .services-inner-text h2 {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 991px) {
+
+    /* ================================
+        Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 39px;
+        --section-heading: 30px;
+        --block-heading-xl: 28px;
+        --block-heading-lg: 26px;
+        --block-heading-md: 21px;
+        /* General font sizes */
+        --font-size-sm: 15px;
+        --font-size-md: 16px;
+        --font-size-lg: 17px;
+        --font-size-xl: 19px;
+    }
+
+    .categorySwiper .swiper-pagination-bullet {
+        width: 9px;
+        height: 9px;
+    }
+
+    /* ================================
+        Basics
+    ================================ */
+    /* Content padding */
+    .content-box-lg {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .content-box-md {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .content-box-sm {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    /* Swiper general  */
+    .swiper-lazy-preloader {
+        background-size: 120px;
+    }
+
+    /* Preloader */
+    .preloader img {
+        width: 140px;
+    }
+
+    .section-heading-pattern {
+        width: 300px;
+    }
+
+    .section-heading-pattern.left {
+        left: -35px;
+    }
+
+    .section-heading-pattern.right {
+        right: -35px;
+    }
+
+    .page-heading {
+        padding: 0;
+        text-align: center;
+    }
+
+    .page-heading-pattern {
+        width: 250px;
+        top: 45px;
+        left: -35px;
+    }
+
+    .section-pattern {
+        width: 300px;
+    }
+
+    .section-pattern.right {
+        top: 90px;
+        right: 35px;
+    }
+
+    .section-pattern.left {
+        left: 35px;
+    }
+
+    .play-btn {
+        width: 80px;
+        height: 80px;
+    }
+
+    .play-btn span {
+        margin-left: 7px;
+        border-width: 14px 0 14px 22px;
+    }
+
+    /* ================================
+        Header
+    ================================ */
+    .btn-search {
+        margin-left: 20px;
+    }
+
+    .btn-search svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ================================
+        Home banner
+    ================================ */
+    #home-banner {
+        height: 450px;
+    }
+
+    #page-banner {
+        height: 400px;
+    }
+
+    #page-banner .banner-pattern img {
+        width: 160px;
+    }
+
+    /* ================================
+        About
+    ================================ */
+    .about-image {
+        height: 450px;
+    }
+
+    .about-text .text-content {
+        padding: 45px;
+    }
+
+    /* ================================
+        Gardens
+    ================================ */
+    .garden-box {
+        padding: 0;
+    }
+
+    /* ================================
+        Products
+    ================================ */
+
+    .products-tabs {
+        margin-bottom: 40px;
+    }
+
+    /* ================================
+        Footer
+    ================================ */
+    #main-footer {
+        padding-top: 350px;
+    }
+
+    .primary-footer {
+        padding: 20px 0;
+    }
+
+    .secondary-footer {
+        padding: 10px 0;
+    }
+
+    .footer-block h5 {
+        text-align: center;
+    }
+
+    .footer-block ul {
+        align-items: center;
+    }
+
+    .logo.footer img {
+        width: 210px;
+    }
+
+    /* ================================
+        About page
+    ================================ */
+
+    .about-inner-image {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .service-box {
+        text-align: center;
+    }
+
+    .service-box .box-img img {
+        height: 65px;
+    }
+
+    /* ================================
+        Gardens page
+    ================================ */
+    #gardens-pg .gardens-wrapper {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    /* ================================
+        Products page
+    ================================ */
+    .products-tabs .tab-item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    /* ================================
+        Product inner page
+    ================================ */
+
+    .product-inner-img {
+        padding: 0;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .product-inner-text {
+        text-align: center;
+    }
+
+    /* ================================
+        Services page
+    ================================ */
+    .services-wrapper {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .services-inner-text {
+        text-align: center !important;
+    }
+
+    .services-wrapper .row:not(:last-child) {
+        padding-bottom: 30px;
+    }
+
+    /* ================================
+        Conatact page
+    ================================ */
+    .contact-box {
+        max-width: 450px;
+        margin: 30px auto;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    /* ================================
+        Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 36px;
+        --section-heading: 28px;
+        --block-heading-xl: 27px;
+        --block-heading-lg: 25px;
+        --block-heading-md: 20px;
+    }
+
+    /* ================================
+        Basics
+    ================================ */
+
+    .section-heading-pattern {
+        width: 230px;
+    }
+
+    .section-heading-pattern.left {
+        left: -30px;
+    }
+
+    .section-heading-pattern.right {
+        right: -30px;
+    }
+
+    .page-heading-pattern {
+        width: 230px;
+        left: -30px;
+    }
+
+    .section-pattern {
+        width: 280px;
+    }
+
+    .section-pattern.right {
+        top: 80px;
+        right: 30px;
+    }
+
+    .section-pattern.left {
+        left: 30px;
+    }
+
+    #btn-scroll-top {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* ================================
+        Header
+    ================================ */
+    .social-list li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .btn-search {
+        margin-left: 10px;
+    }
+
+    .secondary-header {
+        padding: 12px 0;
+    }
+
+    .lang-list {
+        margin-right: 10px;
+    }
+
+    .lang-list button i {
+        font-size: 14px;
+    }
+
+    .social-list li a {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* ================================
+        Home banner
+    ================================ */
+    #home-banner {
+        height: 400px;
+    }
+
+    #page-banner {
+        height: 350px;
+    }
+
+    #page-banner .banner-pattern img {
+        width: 140px;
+    }
+
+    .category-box {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    /* ================================
+        About
+    ================================ */
+    .about-image {
+        height: 400px;
+    }
+
+    .about-text .text-content {
+        padding: 45px 25px;
+    }
+
+    /* ================================
+        Gardens
+    ================================ */
+    .garden-box {
+        max-width: 450px;
+        margin: 0 auto;
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    /* ================================
+        Products
+    ================================ */
+    .product-box {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .products-tabs .tab-item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    /* ================================
+        Blogs
+    ================================ */
+    .blog-box {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .blogsSwiper .swiper-slide:nth-child(2n+1) {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+
+    .blogsSwiper {
+        padding-bottom: 40px;
+    }
+
+    /* ================================
+        Footer
+    ================================ */
+    .logo.footer img {
+        width: 190px;
+    }
+
+    /* ================================
+        About page
+    ================================ */
+    .gallerySwiper .swiper-slide:nth-child(2n+1) {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+
+    .gallerySwiper {
+        padding-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    :root {
+        /* Special font sizes */
+        --page-heading: 33px;
+        --section-heading: 26px;
+        --block-heading-xl: 25px;
+        --block-heading-lg: 23px;
+        /* General font sizes */
+        --font-size-md: 15px;
+        --font-size-lg: 16px;
+        --font-size-xl: 18px;
+    }
+
+    .about-image {
+        height: 350px;
+    }
+
+    .about-text .text-content .content-footer {
+        flex-direction: column;
+    }
+
+    .content-footer .footer-element:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .about-text .text-content {
+        background-image: none;
+    }
+
+    .logo.footer img {
+        width: 170px;
+    }
+
+    #main-serach {
+        flex-direction: column;
+    }
+
+    #main-serach button {
+        height: 55px;
+        border-width: 1px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #main-serach .form-control {
+        height: 55px;
+        border-width: 1px;
+    }
+
+    .section-pattern.right {
+        display: none;
+    }
+
+    .garden-inner-img {
+        height: 400px;
+    }
+
+    .garden-inner-text {
+        text-align: center !important;
+    }
+
+    .products-tabs .tab-item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .secondary-footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
